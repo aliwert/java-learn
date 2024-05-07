@@ -11,7 +11,7 @@ public class alphacharacters {
                 count++;
             }
         }
-        System.out.println(str + " icinde  " + count + " has alpha characters");
+        System.out.println(str + " in  " + count + " has alpha characters");
 
         //second solution
         System.out.println(str.replaceAll("[^a-zA-Z]", "").length());
